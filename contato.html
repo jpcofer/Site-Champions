@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contato.css">
+
+    <script src="menu.js" defer></script>
+    <script src="contato.js" defer></script>
+
+    <title>Contato</title>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="interface">
+
+<div class="logo">
+<a href="index.html">
+<img src="Logo_UEFA_Champions_League.png.png" width="100">
+</a>
+</div>
+
+<nav class="menu-desktop">
+<ul>
+<li><a href="index.html">Início</a></li>
+<li><a href="historia.html">História</a></li>
+<li><a href="campeoes.html">Campeões</a></li>
+<li><a href="jogos.html">Jogos</a></li>
+<li><a href="contato.html">Contato</a></li>
+</ul>
+</nav>
+
+<div class="btn-contato">
+<a href="contato.html">
+<button>Contato</button>
+</a>
+</div>
+
+<div class="btn-abrir" id="btn-menu">
+<i class="bi bi-list"></i>
+</div>
+
+<div class="menu-mobile" id="menu-mobile">
+
+<div class="btn-fechar">
+<i class="bi bi-x-lg"></i>
+</div>
+
+<nav>
+
+<ul>
+<li><a href="index.html">Início</a></li>
+<li><a href="historia.html">História</a></li>
+<li><a href="campeoes.html">Campeões</a></li>
+<li><a href="jogos.html">Jogos</a></li>
+<li><a href="contato.html">Contato</a></li>
+</ul>
+
+</nav>
+
+</div>
+
+<div class="overlay-menu" id="overlay-menu"></div>
+
+</div>
+
+</header>
+
+<main>
+
+<section class="contato">
+
+<div class="interface">
+
+<h2 class="titulo">
+ENTRE EM <span>CONTATO.</span>
+</h2>
+
+<form id="formContato">
+
+<input
+type="text"
+id="nome"
+placeholder="Seu nome">
+
+<span id="erroNome"></span>
+
+<input
+type="email"
+id="email"
+placeholder="Seu e-mail">
+
+<span id="erroEmail"></span>
+
+<input
+type="text"
+id="assunto"
+placeholder="Assunto">
+
+<span id="erroAssunto"></span>
+
+<textarea
+id="mensagem"
+rows="6"
+placeholder="Digite sua mensagem"></textarea>
+
+<span id="erroMensagem"></span>
+
+<button type="submit">
+Enviar Mensagem
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<div class="interface">
+
+<div class="line-footer borda">
+
+<p>
+<i class="bi bi-envelope-fill"></i>
+<a href="mailto:jpcostafer@gmail.com">
+jpcostafer@gmail.com
+</a>
+</p>
+
+<p>&copy;2026 - Todos os direitos reservados.</p>
+</div>
+
+</div>
+
+</footer>
+</body>
+</html>
